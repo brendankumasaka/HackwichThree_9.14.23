@@ -8,7 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+//please declare your global variables here
+    
+    var firstString = "The background color will turn blue"
+    
+    var secondString = "The background color will turn green"
+    
+    @IBAction func 
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
