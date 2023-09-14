@@ -10,7 +10,7 @@ import UIKit
 class secondViewController: UIViewController {
     
     
-    var firstString = "The background color will turn blue"
+    var firstString = false
     
     var secondString = "The background color will turn green"
     
@@ -23,7 +23,8 @@ class secondViewController: UIViewController {
     }
     @IBAction func changeColorButtonPressed(_ sender: Any) {
         
-        if firstString == "The background color will be red"
+        
+        if firstString == false
         {
             print("I did this right")
         }
